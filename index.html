@@ -13,14 +13,26 @@ ul {
     padding-left: 0;
     display: inline-block;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 </style>
 </head>
 
 <body>
 	<div>Online JAVA Compiler: <a href="https://www.jdoodle.com/online-java-compiler/" target="_blank">Here</a></div>
 	
-	<div>Online Time Complexity: <a href="https://shunnarski.github.io/BigO.html	" target="_blank">Here</a></div>
-	
+	<div>Online Time Complexity: <a href="https://shunnarski.github.io/BigO.html" target="_blank">Here</a></div>
+	<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
 	<div>Code:<a href="https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/" target="_blank">Generating nth Fibonacci number</a>
 	<p>Run Program:<a href="https://www.jdoodle.com/a/4lwp" target="_blank">JAVA</a> </p>
 	 <p>	<ul>
