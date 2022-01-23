@@ -5,7 +5,8 @@
 	<title>AD2 Resources..</title>
 	<style>
 body {
-  background-color: #99ff99;
+  background-color: #000000;
+  color: #00ff00;
   text-align: center;
 }
 ul {
@@ -13,9 +14,25 @@ ul {
     padding-left: 0;
     display: inline-block;
 }
-.dark-mode {
-  background-color: black;
+a:link {
   color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 </style>
 </head>
@@ -27,14 +44,7 @@ ul {
 	<br>
 	<div>Online Time Complexity: <a href="https://shunnarski.github.io/BigO.html" target="_blank">Here</a></div>
 	<br>
-	<button onclick="myFunction()">Toggle dark mode</button>
-	<br>
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
+
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 	<h2>Dynamic Programming:</h2>
 	<div>Code:<a href="https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/" target="_blank">Generating nth Fibonacci number</a>
